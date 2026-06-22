@@ -77,6 +77,9 @@
     data.eras.forEach(function (era) {
       era.concepts.forEach(function (concept) { activeIds.push(concept.id); });
     });
+    if (key === wrongKey && Array.isArray(window.PDF_QUESTIONS)) {
+      window.PDF_QUESTIONS.forEach(function (question) { activeIds.push(question.id); });
+    }
     return safeParse(key).filter(function (id) { return activeIds.indexOf(id) !== -1; });
   }
 
@@ -274,6 +277,8 @@
           eraId: era.id,
           eraTitle: era.title,
           conceptTitle: concept.title,
+          type: "choice",
+          sourceType: "concept",
           question: concept.quiz.question,
           choices: concept.quiz.choices,
           answer: concept.quiz.answer,
@@ -281,6 +286,9 @@
         });
       });
     });
+    if (Array.isArray(window.PDF_QUESTIONS)) {
+      questions = questions.concat(window.PDF_QUESTIONS);
+    }
     return questions;
   }
 
@@ -315,9 +323,9 @@
       '<aside class="quiz-panel"><h2>오늘의 점수</h2><div class="score-number"><span id="score">0</span><small> 점</small></div>',
       '<div class="quiz-stat"><span>정답</span><b id="correct-count">0</b></div><div class="quiz-stat"><span>푼 문제</span><b id="answered-count">0</b></div>',
       '<div class="quiz-stat"><span>저장된 오답</span><b id="wrong-count">', activeStoredValues(wrongKey).length, "</b></div></aside>",
-      '<section><header class="quiz-main-head"><h1>중3 한국사 실전 퀴즈</h1><p>답을 고르면 바로 해설이 나옵니다. 틀린 문제는 오답 노트에 저장됩니다.</p></header><div id="quiz-stage"></div></section>',
+      '<section><header class="quiz-main-head"><h1>중3 한국사 실전 퀴즈</h1><p>기본 문제와 PDF 실전 문항 ', all.length, '개를 풀 수 있습니다. 틀린 문제는 오답 노트에 저장됩니다.</p></header><div id="quiz-stage"></div></section>',
       '<aside class="quiz-panel"><h2>문제 선택</h2><div class="quiz-controls">',
-      '<button type="button" class="active" data-mode="daily">오늘의 10문제</button><button type="button" data-mode="all">전체 문제</button><button type="button" data-mode="wrong">오답만</button>',
+      '<button type="button" class="active" data-mode="daily">오늘의 10문제</button><button type="button" data-mode="all">전체 문제</button><button type="button" data-mode="pdf-objective">PDF 객관식</button><button type="button" data-mode="pdf-subjective">PDF 주관식</button><button type="button" data-mode="wrong">오답만</button>',
       '<select id="era-filter" aria-label="시대 선택"><option value="all">전체 시대</option>',
       data.eras.map(function (era) { return '<option value="' + era.id + '"' + (state.era === era.id ? " selected" : "") + ">" + escapeHtml(era.title) + "</option>"; }).join(""),
       '</select></div><h2 style="margin-top:22px">바로 복습</h2><div class="study-links">',
@@ -339,6 +347,12 @@
       if (state.mode === "wrong") {
         var wrong = activeStoredValues(wrongKey);
         return base.filter(function (item) { return wrong.indexOf(item.id) !== -1; });
+      }
+      if (state.mode === "pdf-objective") {
+        return base.filter(function (item) { return item.sourceType === "objective"; });
+      }
+      if (state.mode === "pdf-subjective") {
+        return base.filter(function (item) { return item.sourceType === "subjective"; });
       }
       return base;
     }
@@ -373,6 +387,64 @@
       }
 
       var question = list[state.index];
+      if (question.type === "pdf") {
+        stage.innerHTML = [
+          '<article class="quiz-card pdf-quiz-card">',
+          '<div class="question-meta"><span>', escapeHtml(question.eraTitle), " · ", escapeHtml(question.conceptTitle), '</span><span>', state.index + 1, " / ", list.length, '</span></div>',
+          '<div class="pdf-source-badge">PDF ', question.sourceType === "objective" ? "객관식" : "주관식", '</div>',
+          '<img class="pdf-question-image" src="', escapeHtml(question.questionImage), '" alt="', escapeHtml(question.sourceTitle), " ", question.questionNumber, '번 문제">',
+          '<button class="btn btn-dark pdf-reveal" id="reveal-solution" type="button">정답·해설 보기</button>',
+          '<section class="pdf-solution" id="pdf-solution" hidden><h3>정답·해설</h3><img src="', escapeHtml(question.solutionImage), '" alt="', escapeHtml(question.sourceTitle), " ", question.questionNumber, '번 정답과 해설">',
+          '<p>내 답과 비교한 뒤 직접 채점해 주세요.</p><div class="self-grade"><button type="button" class="btn grade-correct">맞았어요</button><button type="button" class="btn grade-wrong">다시 볼게요</button></div></section>',
+          '<p class="answer-result" aria-live="polite"></p>',
+          '<div class="quiz-next"><button class="btn btn-primary" id="next-question" type="button" disabled>다음 문제 →</button></div>',
+          '</article>'
+        ].join("");
+
+        var revealButton = document.getElementById("reveal-solution");
+        var solution = document.getElementById("pdf-solution");
+        var pdfResult = stage.querySelector(".answer-result");
+        var pdfNextButton = document.getElementById("next-question");
+
+        revealButton.addEventListener("click", function () {
+          solution.hidden = false;
+          revealButton.hidden = true;
+          solution.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        });
+
+        function gradePdf(isCorrect) {
+          if (state.locked) {
+            return;
+          }
+          state.locked = true;
+          state.answered += 1;
+          var wrong = activeStoredValues(wrongKey);
+          if (isCorrect) {
+            state.correct += 1;
+            wrong = wrong.filter(function (id) { return id !== question.id; });
+            pdfResult.textContent = "정답으로 기록했습니다.";
+          } else {
+            if (wrong.indexOf(question.id) === -1) {
+              wrong.push(question.id);
+            }
+            pdfResult.textContent = "오답 노트에 저장했습니다.";
+          }
+          safeSave(wrongKey, wrong);
+          solution.querySelectorAll("button").forEach(function (button) { button.disabled = true; });
+          pdfResult.classList.add("show");
+          pdfNextButton.disabled = false;
+          updateStats();
+        }
+
+        solution.querySelector(".grade-correct").addEventListener("click", function () { gradePdf(true); });
+        solution.querySelector(".grade-wrong").addEventListener("click", function () { gradePdf(false); });
+        pdfNextButton.addEventListener("click", function () {
+          state.index += 1;
+          draw();
+        });
+        return;
+      }
+
       stage.innerHTML = [
         '<article class="quiz-card">',
         '<div class="question-meta"><span>', escapeHtml(question.eraTitle), " · ", escapeHtml(question.conceptTitle), "</span><span>", state.index + 1, " / ", list.length, "</span></div>",

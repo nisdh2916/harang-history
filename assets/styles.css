@@ -510,6 +510,40 @@ main {
 }
 .question-meta { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-size: 12px; font-weight: 800; }
 .quiz-card h2 { margin: 18px 0; font-size: 20px; line-height: 1.55; letter-spacing: -.025em; }
+.pdf-quiz-card { overflow: hidden; }
+.pdf-source-badge {
+  display: inline-flex;
+  margin: 16px 0 12px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: #fff2dc;
+  color: #a95700;
+  font-size: 11px;
+  font-weight: 900;
+}
+.pdf-question-image,
+.pdf-solution img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e4e7ea;
+  border-radius: 12px;
+  background: #fff;
+}
+.pdf-reveal { width: 100%; margin-top: 14px; }
+.pdf-solution {
+  margin-top: 18px;
+  padding: 18px;
+  border: 1px solid #f0c780;
+  border-radius: 15px;
+  background: #fffaf1;
+}
+.pdf-solution h3 { margin: 0 0 12px; font-size: 16px; }
+.pdf-solution p { margin: 12px 0 0; color: var(--muted); font-size: 12px; }
+.self-grade { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 12px; }
+.self-grade .btn { justify-content: center; border: 1px solid #d7dce1; background: #fff; color: var(--ink); }
+.self-grade .grade-correct { border-color: #8bcdb8; background: #edf9f5; color: #126b56; }
+.self-grade .grade-wrong { border-color: #efb4ae; background: #fff4f2; color: #a7372f; }
 .quiz-next { display: flex; justify-content: flex-end; margin-top: 14px; }
 .quiz-empty { padding: 50px 25px; border: 1px dashed #cfd5dc; border-radius: 18px; text-align: center; color: var(--muted); }
 .study-links { display: grid; gap: 9px; }
