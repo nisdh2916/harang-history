@@ -4,7 +4,8 @@
 
 ## 바로가기
 
-- 학습 사이트: https://nisdh2916.github.io/harang-history/
+- 학습 사이트: https://harang-history.vercel.app/
+- 예비 주소: https://nisdh2916.github.io/harang-history/
 - 시대별 개념 노트 33개
 - 오늘의 10문제, 전체 문제, 시대별 문제, 오답 복습
 
