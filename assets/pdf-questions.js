@@ -2,1202 +2,1302 @@ window.PDF_QUESTIONS = [
   {
     "id": "pdf-goryeo-objective-01",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 1번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 1,
     "questionImage": "assets/questions/goryeo-objective/q01.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a01.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a01.webp",
+    "conceptId": "military-rule"
   },
   {
     "id": "pdf-goryeo-objective-02",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 2번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 2,
     "questionImage": "assets/questions/goryeo-objective/q02.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a02.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a02.webp",
+    "conceptId": "aristocrats"
   },
   {
     "id": "pdf-goryeo-objective-03",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 3번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 3,
     "questionImage": "assets/questions/goryeo-objective/q03.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a03.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a03.webp",
+    "conceptId": "military-rule"
   },
   {
     "id": "pdf-goryeo-objective-04",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 4번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 4,
     "questionImage": "assets/questions/goryeo-objective/q04.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a04.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a04.webp",
+    "conceptId": "goryeo-uprisings"
   },
   {
     "id": "pdf-goryeo-objective-05",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 5번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 5,
     "questionImage": "assets/questions/goryeo-objective/q05.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a05.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a05.webp",
+    "conceptId": "aristocrats"
   },
   {
     "id": "pdf-goryeo-objective-06",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 6번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 6,
     "questionImage": "assets/questions/goryeo-objective/q06.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a06.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a06.webp",
+    "conceptId": "military-rule"
   },
   {
     "id": "pdf-goryeo-objective-07",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 7번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 7,
     "questionImage": "assets/questions/goryeo-objective/q07.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a07.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a07.webp",
+    "conceptId": "military-rule"
   },
   {
     "id": "pdf-goryeo-objective-08",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 8번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 8,
     "questionImage": "assets/questions/goryeo-objective/q08.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a08.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a08.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-09",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 9번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 9,
     "questionImage": "assets/questions/goryeo-objective/q09.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a09.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a09.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-10",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 10번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 10,
     "questionImage": "assets/questions/goryeo-objective/q10.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a10.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a10.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-objective-11",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 11번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 11,
     "questionImage": "assets/questions/goryeo-objective/q11.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a11.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a11.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-objective-12",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 12번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 12,
     "questionImage": "assets/questions/goryeo-objective/q12.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a12.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a12.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-objective-13",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 13번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 13,
     "questionImage": "assets/questions/goryeo-objective/q13.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a13.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a13.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-objective-14",
-    "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraId": "later-three",
+    "eraTitle": "후삼국 시대",
     "conceptTitle": "고려 객관식 · 14번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 14,
     "questionImage": "assets/questions/goryeo-objective/q14.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a14.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a14.webp",
+    "conceptId": "goryeo-founding"
   },
   {
     "id": "pdf-goryeo-objective-15",
-    "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraId": "later-three",
+    "eraTitle": "후삼국 시대",
     "conceptTitle": "고려 객관식 · 15번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 15,
     "questionImage": "assets/questions/goryeo-objective/q15.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a15.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a15.webp",
+    "conceptId": "reunification"
   },
   {
     "id": "pdf-goryeo-objective-16",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 16번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 16,
     "questionImage": "assets/questions/goryeo-objective/q16.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a16.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a16.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-objective-17",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 17번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 17,
     "questionImage": "assets/questions/goryeo-objective/q17.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a17.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a17.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-objective-18",
-    "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraId": "later-three",
+    "eraTitle": "후삼국 시대",
     "conceptTitle": "고려 객관식 · 18번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 18,
     "questionImage": "assets/questions/goryeo-objective/q18.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a18.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a18.webp",
+    "conceptId": "reunification"
   },
   {
     "id": "pdf-goryeo-objective-19",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 19번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 19,
     "questionImage": "assets/questions/goryeo-objective/q19.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a19.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a19.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-objective-20",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 20번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 20,
     "questionImage": "assets/questions/goryeo-objective/q20.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a20.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a20.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-objective-21",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 21번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 21,
     "questionImage": "assets/questions/goryeo-objective/q21.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a21.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a21.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-objective-22",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 22번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 22,
     "questionImage": "assets/questions/goryeo-objective/q22.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a22.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a22.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-objective-23",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 23번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 23,
     "questionImage": "assets/questions/goryeo-objective/q23.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a23.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a23.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-objective-24",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 24번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 24,
     "questionImage": "assets/questions/goryeo-objective/q24.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a24.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a24.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-objective-25",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 25번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 25,
     "questionImage": "assets/questions/goryeo-objective/q25.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a25.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a25.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-objective-26",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 26번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 26,
     "questionImage": "assets/questions/goryeo-objective/q26.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a26.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a26.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-objective-27",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 27번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 27,
     "questionImage": "assets/questions/goryeo-objective/q27.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a27.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a27.webp",
+    "conceptId": "mongol"
   },
   {
     "id": "pdf-goryeo-objective-28",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 28번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 28,
     "questionImage": "assets/questions/goryeo-objective/q28.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a28.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a28.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-objective-29",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 29번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 29,
     "questionImage": "assets/questions/goryeo-objective/q29.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a29.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a29.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-objective-30",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 30번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 30,
     "questionImage": "assets/questions/goryeo-objective/q30.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a30.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a30.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-31",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 31번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 31,
     "questionImage": "assets/questions/goryeo-objective/q31.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a31.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a31.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-objective-32",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 32번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 32,
     "questionImage": "assets/questions/goryeo-objective/q32.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a32.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a32.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-33",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 33번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 33,
     "questionImage": "assets/questions/goryeo-objective/q33.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a33.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a33.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-34",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 34번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 34,
     "questionImage": "assets/questions/goryeo-objective/q34.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a34.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a34.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-objective-35",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 35번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 35,
     "questionImage": "assets/questions/goryeo-objective/q35.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a35.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a35.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-36",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 36번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 36,
     "questionImage": "assets/questions/goryeo-objective/q36.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a36.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a36.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-objective-37",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 37번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 37,
     "questionImage": "assets/questions/goryeo-objective/q37.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a37.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a37.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-38",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 38번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 38,
     "questionImage": "assets/questions/goryeo-objective/q38.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a38.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a38.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-objective-39",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 39번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 39,
     "questionImage": "assets/questions/goryeo-objective/q39.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a39.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a39.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-40",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 40번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 40,
     "questionImage": "assets/questions/goryeo-objective/q40.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a40.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a40.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-41",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 41번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 41,
     "questionImage": "assets/questions/goryeo-objective/q41.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a41.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a41.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-42",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 42번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 42,
     "questionImage": "assets/questions/goryeo-objective/q42.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a42.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a42.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-objective-43",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 43번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 43,
     "questionImage": "assets/questions/goryeo-objective/q43.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a43.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a43.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-objective-44",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 44번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 44,
     "questionImage": "assets/questions/goryeo-objective/q44.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a44.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a44.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-objective-45",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 45번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 45,
     "questionImage": "assets/questions/goryeo-objective/q45.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a45.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a45.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-46",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 46번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 46,
     "questionImage": "assets/questions/goryeo-objective/q46.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a46.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a46.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-objective-47",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 47번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 47,
     "questionImage": "assets/questions/goryeo-objective/q47.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a47.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a47.webp",
+    "conceptId": "mongol"
   },
   {
     "id": "pdf-goryeo-objective-48",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 48번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 48,
     "questionImage": "assets/questions/goryeo-objective/q48.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a48.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a48.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-objective-49",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 49번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 49,
     "questionImage": "assets/questions/goryeo-objective/q49.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a49.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a49.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-objective-50",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 객관식 · 50번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "고려 객관식",
     "questionNumber": 50,
     "questionImage": "assets/questions/goryeo-objective/q50.webp",
-    "solutionImage": "assets/questions/goryeo-objective/a50.webp"
+    "solutionImage": "assets/questions/goryeo-objective/a50.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-01",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 1번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 1,
     "questionImage": "assets/questions/goryeo-subjective/q01.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a01.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a01.webp",
+    "conceptId": "military-rule"
   },
   {
     "id": "pdf-goryeo-subjective-02",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 2번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 2,
     "questionImage": "assets/questions/goryeo-subjective/q02.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a02.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a02.webp",
+    "conceptId": "aristocrats"
   },
   {
     "id": "pdf-goryeo-subjective-03",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 3번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 3,
     "questionImage": "assets/questions/goryeo-subjective/q03.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a03.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a03.webp",
+    "conceptId": "aristocrats"
   },
   {
     "id": "pdf-goryeo-subjective-04",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 4번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 4,
     "questionImage": "assets/questions/goryeo-subjective/q04.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a04.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a04.webp",
+    "conceptId": "goryeo-uprisings"
   },
   {
     "id": "pdf-goryeo-subjective-05",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 5번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 5,
     "questionImage": "assets/questions/goryeo-subjective/q05.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a05.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a05.webp",
+    "conceptId": "military-rule"
   },
   {
     "id": "pdf-goryeo-subjective-06",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 6번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 6,
     "questionImage": "assets/questions/goryeo-subjective/q06.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a06.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a06.webp",
+    "conceptId": "aristocrats"
   },
   {
     "id": "pdf-goryeo-subjective-07",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 7번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 7,
     "questionImage": "assets/questions/goryeo-subjective/q07.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a07.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a07.webp",
+    "conceptId": "military-rule"
   },
   {
     "id": "pdf-goryeo-subjective-08",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 8번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 8,
     "questionImage": "assets/questions/goryeo-subjective/q08.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a08.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a08.webp",
+    "conceptId": "aristocrats"
   },
   {
     "id": "pdf-goryeo-subjective-09",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 9번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 9,
     "questionImage": "assets/questions/goryeo-subjective/q09.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a09.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a09.webp",
+    "conceptId": "military-rule"
   },
   {
     "id": "pdf-goryeo-subjective-10",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 10번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 10,
     "questionImage": "assets/questions/goryeo-subjective/q10.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a10.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a10.webp",
+    "conceptId": "goryeo-uprisings"
   },
   {
     "id": "pdf-goryeo-subjective-11",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 11번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 11,
     "questionImage": "assets/questions/goryeo-subjective/q11.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a11.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a11.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-12",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 12번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 12,
     "questionImage": "assets/questions/goryeo-subjective/q12.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a12.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a12.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-13",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 13번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 13,
     "questionImage": "assets/questions/goryeo-subjective/q13.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a13.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a13.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-14",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 14번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 14,
     "questionImage": "assets/questions/goryeo-subjective/q14.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a14.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a14.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-15",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 15번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 15,
     "questionImage": "assets/questions/goryeo-subjective/q15.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a15.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a15.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-16",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 16번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 16,
     "questionImage": "assets/questions/goryeo-subjective/q16.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a16.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a16.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-17",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 17번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 17,
     "questionImage": "assets/questions/goryeo-subjective/q17.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a17.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a17.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-18",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 18번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 18,
     "questionImage": "assets/questions/goryeo-subjective/q18.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a18.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a18.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-19",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 19번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 19,
     "questionImage": "assets/questions/goryeo-subjective/q19.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a19.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a19.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-subjective-20",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 20번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 20,
     "questionImage": "assets/questions/goryeo-subjective/q20.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a20.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a20.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-subjective-21",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 21번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 21,
     "questionImage": "assets/questions/goryeo-subjective/q21.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a21.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a21.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-subjective-22",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 22번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 22,
     "questionImage": "assets/questions/goryeo-subjective/q22.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a22.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a22.webp",
+    "conceptId": "goryeo-system"
   },
   {
     "id": "pdf-goryeo-subjective-23",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 23번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 23,
     "questionImage": "assets/questions/goryeo-subjective/q23.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a23.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a23.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-subjective-24",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 24번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 24,
     "questionImage": "assets/questions/goryeo-subjective/q24.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a24.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a24.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-subjective-25",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 25번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 25,
     "questionImage": "assets/questions/goryeo-subjective/q25.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a25.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a25.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-subjective-26",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 26번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 26,
     "questionImage": "assets/questions/goryeo-subjective/q26.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a26.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a26.webp",
+    "conceptId": "goryeo-economy"
   },
   {
     "id": "pdf-goryeo-subjective-27",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 27번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 27,
     "questionImage": "assets/questions/goryeo-subjective/q27.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a27.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a27.webp",
+    "conceptId": "goryeo-foreign"
   },
   {
     "id": "pdf-goryeo-subjective-28",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 28번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 28,
     "questionImage": "assets/questions/goryeo-subjective/q28.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a28.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a28.webp",
+    "conceptId": "goryeo-economy"
   },
   {
     "id": "pdf-goryeo-subjective-29",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 29번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 29,
     "questionImage": "assets/questions/goryeo-subjective/q29.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a29.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a29.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-subjective-30",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 30번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 30,
     "questionImage": "assets/questions/goryeo-subjective/q30.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a30.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a30.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-subjective-31",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 31번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 31,
     "questionImage": "assets/questions/goryeo-subjective/q31.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a31.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a31.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-subjective-32",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 32번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 32,
     "questionImage": "assets/questions/goryeo-subjective/q32.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a32.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a32.webp",
+    "conceptId": "aristocrats"
   },
   {
     "id": "pdf-goryeo-subjective-33",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 33번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 33,
     "questionImage": "assets/questions/goryeo-subjective/q33.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a33.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a33.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-subjective-34",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 34번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 34,
     "questionImage": "assets/questions/goryeo-subjective/q34.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a34.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a34.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-subjective-35",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 35번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 35,
     "questionImage": "assets/questions/goryeo-subjective/q35.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a35.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a35.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-36",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 36번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 36,
     "questionImage": "assets/questions/goryeo-subjective/q36.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a36.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a36.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-37",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 37번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 37,
     "questionImage": "assets/questions/goryeo-subjective/q37.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a37.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a37.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-subjective-38",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 38번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 38,
     "questionImage": "assets/questions/goryeo-subjective/q38.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a38.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a38.webp",
+    "conceptId": "goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-39",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 39번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 39,
     "questionImage": "assets/questions/goryeo-subjective/q39.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a39.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a39.webp",
+    "conceptId": "goryeo-culture"
   },
   {
     "id": "pdf-goryeo-subjective-40",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 40번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 40,
     "questionImage": "assets/questions/goryeo-subjective/q40.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a40.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a40.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-subjective-41",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 41번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 41,
     "questionImage": "assets/questions/goryeo-subjective/q41.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a41.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a41.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-42",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 42번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 42,
     "questionImage": "assets/questions/goryeo-subjective/q42.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a42.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a42.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-subjective-43",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 43번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 43,
     "questionImage": "assets/questions/goryeo-subjective/q43.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a43.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a43.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-44",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 44번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 44,
     "questionImage": "assets/questions/goryeo-subjective/q44.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a44.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a44.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-45",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 45번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 45,
     "questionImage": "assets/questions/goryeo-subjective/q45.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a45.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a45.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-46",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 46번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 46,
     "questionImage": "assets/questions/goryeo-subjective/q46.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a46.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a46.webp",
+    "conceptId": "mongol"
   },
   {
     "id": "pdf-goryeo-subjective-47",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 47번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 47,
     "questionImage": "assets/questions/goryeo-subjective/q47.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a47.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a47.webp",
+    "conceptId": "mongol"
   },
   {
     "id": "pdf-goryeo-subjective-48",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 48번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 48,
     "questionImage": "assets/questions/goryeo-subjective/q48.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a48.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a48.webp",
+    "conceptId": "late-goryeo"
   },
   {
     "id": "pdf-goryeo-subjective-49",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 49번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 49,
     "questionImage": "assets/questions/goryeo-subjective/q49.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a49.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a49.webp",
+    "conceptId": "late-goryeo-society"
   },
   {
     "id": "pdf-goryeo-subjective-50",
     "eraId": "goryeo",
-    "eraTitle": "고려",
+    "eraTitle": "고려 시대",
     "conceptTitle": "고려 주관식 · 50번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "고려 주관식",
     "questionNumber": 50,
     "questionImage": "assets/questions/goryeo-subjective/q50.webp",
-    "solutionImage": "assets/questions/goryeo-subjective/a50.webp"
+    "solutionImage": "assets/questions/goryeo-subjective/a50.webp",
+    "conceptId": "mongol"
   },
   {
     "id": "pdf-north-south-objective-01",
@@ -1209,7 +1309,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 1,
     "questionImage": "assets/questions/north-south-objective/q01.webp",
-    "solutionImage": "assets/questions/north-south-objective/a01.webp"
+    "solutionImage": "assets/questions/north-south-objective/a01.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-02",
@@ -1221,7 +1322,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 2,
     "questionImage": "assets/questions/north-south-objective/q02.webp",
-    "solutionImage": "assets/questions/north-south-objective/a02.webp"
+    "solutionImage": "assets/questions/north-south-objective/a02.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-03",
@@ -1233,7 +1335,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 3,
     "questionImage": "assets/questions/north-south-objective/q03.webp",
-    "solutionImage": "assets/questions/north-south-objective/a03.webp"
+    "solutionImage": "assets/questions/north-south-objective/a03.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-04",
@@ -1245,7 +1348,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 4,
     "questionImage": "assets/questions/north-south-objective/q04.webp",
-    "solutionImage": "assets/questions/north-south-objective/a04.webp"
+    "solutionImage": "assets/questions/north-south-objective/a04.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-05",
@@ -1257,7 +1361,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 5,
     "questionImage": "assets/questions/north-south-objective/q05.webp",
-    "solutionImage": "assets/questions/north-south-objective/a05.webp"
+    "solutionImage": "assets/questions/north-south-objective/a05.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-06",
@@ -1269,7 +1374,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 6,
     "questionImage": "assets/questions/north-south-objective/q06.webp",
-    "solutionImage": "assets/questions/north-south-objective/a06.webp"
+    "solutionImage": "assets/questions/north-south-objective/a06.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-07",
@@ -1281,7 +1387,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 7,
     "questionImage": "assets/questions/north-south-objective/q07.webp",
-    "solutionImage": "assets/questions/north-south-objective/a07.webp"
+    "solutionImage": "assets/questions/north-south-objective/a07.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-08",
@@ -1293,7 +1400,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 8,
     "questionImage": "assets/questions/north-south-objective/q08.webp",
-    "solutionImage": "assets/questions/north-south-objective/a08.webp"
+    "solutionImage": "assets/questions/north-south-objective/a08.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-09",
@@ -1305,7 +1413,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 9,
     "questionImage": "assets/questions/north-south-objective/q09.webp",
-    "solutionImage": "assets/questions/north-south-objective/a09.webp"
+    "solutionImage": "assets/questions/north-south-objective/a09.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-10",
@@ -1317,7 +1426,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 10,
     "questionImage": "assets/questions/north-south-objective/q10.webp",
-    "solutionImage": "assets/questions/north-south-objective/a10.webp"
+    "solutionImage": "assets/questions/north-south-objective/a10.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-11",
@@ -1329,7 +1439,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 11,
     "questionImage": "assets/questions/north-south-objective/q11.webp",
-    "solutionImage": "assets/questions/north-south-objective/a11.webp"
+    "solutionImage": "assets/questions/north-south-objective/a11.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-12",
@@ -1341,7 +1452,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 12,
     "questionImage": "assets/questions/north-south-objective/q12.webp",
-    "solutionImage": "assets/questions/north-south-objective/a12.webp"
+    "solutionImage": "assets/questions/north-south-objective/a12.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-13",
@@ -1353,7 +1465,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 13,
     "questionImage": "assets/questions/north-south-objective/q13.webp",
-    "solutionImage": "assets/questions/north-south-objective/a13.webp"
+    "solutionImage": "assets/questions/north-south-objective/a13.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-objective-14",
@@ -1365,7 +1478,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 14,
     "questionImage": "assets/questions/north-south-objective/q14.webp",
-    "solutionImage": "assets/questions/north-south-objective/a14.webp"
+    "solutionImage": "assets/questions/north-south-objective/a14.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-15",
@@ -1377,7 +1491,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 15,
     "questionImage": "assets/questions/north-south-objective/q15.webp",
-    "solutionImage": "assets/questions/north-south-objective/a15.webp"
+    "solutionImage": "assets/questions/north-south-objective/a15.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-objective-16",
@@ -1389,7 +1504,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 16,
     "questionImage": "assets/questions/north-south-objective/q16.webp",
-    "solutionImage": "assets/questions/north-south-objective/a16.webp"
+    "solutionImage": "assets/questions/north-south-objective/a16.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-17",
@@ -1401,7 +1517,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 17,
     "questionImage": "assets/questions/north-south-objective/q17.webp",
-    "solutionImage": "assets/questions/north-south-objective/a17.webp"
+    "solutionImage": "assets/questions/north-south-objective/a17.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-18",
@@ -1413,7 +1530,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 18,
     "questionImage": "assets/questions/north-south-objective/q18.webp",
-    "solutionImage": "assets/questions/north-south-objective/a18.webp"
+    "solutionImage": "assets/questions/north-south-objective/a18.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-19",
@@ -1425,7 +1543,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 19,
     "questionImage": "assets/questions/north-south-objective/q19.webp",
-    "solutionImage": "assets/questions/north-south-objective/a19.webp"
+    "solutionImage": "assets/questions/north-south-objective/a19.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-objective-20",
@@ -1437,7 +1556,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 20,
     "questionImage": "assets/questions/north-south-objective/q20.webp",
-    "solutionImage": "assets/questions/north-south-objective/a20.webp"
+    "solutionImage": "assets/questions/north-south-objective/a20.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-objective-21",
@@ -1449,7 +1569,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 21,
     "questionImage": "assets/questions/north-south-objective/q21.webp",
-    "solutionImage": "assets/questions/north-south-objective/a21.webp"
+    "solutionImage": "assets/questions/north-south-objective/a21.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-22",
@@ -1461,7 +1582,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 22,
     "questionImage": "assets/questions/north-south-objective/q22.webp",
-    "solutionImage": "assets/questions/north-south-objective/a22.webp"
+    "solutionImage": "assets/questions/north-south-objective/a22.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-23",
@@ -1473,7 +1595,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 23,
     "questionImage": "assets/questions/north-south-objective/q23.webp",
-    "solutionImage": "assets/questions/north-south-objective/a23.webp"
+    "solutionImage": "assets/questions/north-south-objective/a23.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-objective-24",
@@ -1485,19 +1608,21 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 24,
     "questionImage": "assets/questions/north-south-objective/q24.webp",
-    "solutionImage": "assets/questions/north-south-objective/a24.webp"
+    "solutionImage": "assets/questions/north-south-objective/a24.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-objective-25",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "later-three",
+    "eraTitle": "후삼국 시대",
     "conceptTitle": "남북국 객관식 · 25번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 25,
     "questionImage": "assets/questions/north-south-objective/q25.webp",
-    "solutionImage": "assets/questions/north-south-objective/a25.webp"
+    "solutionImage": "assets/questions/north-south-objective/a25.webp",
+    "conceptId": "taebong"
   },
   {
     "id": "pdf-north-south-objective-26",
@@ -1509,19 +1634,21 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 26,
     "questionImage": "assets/questions/north-south-objective/q26.webp",
-    "solutionImage": "assets/questions/north-south-objective/a26.webp"
+    "solutionImage": "assets/questions/north-south-objective/a26.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-objective-27",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "later-three",
+    "eraTitle": "후삼국 시대",
     "conceptTitle": "남북국 객관식 · 27번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 27,
     "questionImage": "assets/questions/north-south-objective/q27.webp",
-    "solutionImage": "assets/questions/north-south-objective/a27.webp"
+    "solutionImage": "assets/questions/north-south-objective/a27.webp",
+    "conceptId": "taebong"
   },
   {
     "id": "pdf-north-south-objective-28",
@@ -1533,7 +1660,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 28,
     "questionImage": "assets/questions/north-south-objective/q28.webp",
-    "solutionImage": "assets/questions/north-south-objective/a28.webp"
+    "solutionImage": "assets/questions/north-south-objective/a28.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-objective-29",
@@ -1545,19 +1673,21 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 29,
     "questionImage": "assets/questions/north-south-objective/q29.webp",
-    "solutionImage": "assets/questions/north-south-objective/a29.webp"
+    "solutionImage": "assets/questions/north-south-objective/a29.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-objective-30",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "later-three",
+    "eraTitle": "후삼국 시대",
     "conceptTitle": "남북국 객관식 · 30번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 30,
     "questionImage": "assets/questions/north-south-objective/q30.webp",
-    "solutionImage": "assets/questions/north-south-objective/a30.webp"
+    "solutionImage": "assets/questions/north-south-objective/a30.webp",
+    "conceptId": "later-baekje"
   },
   {
     "id": "pdf-north-south-objective-31",
@@ -1569,103 +1699,112 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 31,
     "questionImage": "assets/questions/north-south-objective/q31.webp",
-    "solutionImage": "assets/questions/north-south-objective/a31.webp"
+    "solutionImage": "assets/questions/north-south-objective/a31.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-objective-32",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 객관식 · 32번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 32,
     "questionImage": "assets/questions/north-south-objective/q32.webp",
-    "solutionImage": "assets/questions/north-south-objective/a32.webp"
+    "solutionImage": "assets/questions/north-south-objective/a32.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-objective-33",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 객관식 · 33번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 33,
     "questionImage": "assets/questions/north-south-objective/q33.webp",
-    "solutionImage": "assets/questions/north-south-objective/a33.webp"
+    "solutionImage": "assets/questions/north-south-objective/a33.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-objective-34",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 객관식 · 34번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 34,
     "questionImage": "assets/questions/north-south-objective/q34.webp",
-    "solutionImage": "assets/questions/north-south-objective/a34.webp"
+    "solutionImage": "assets/questions/north-south-objective/a34.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-objective-35",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 객관식 · 35번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 35,
     "questionImage": "assets/questions/north-south-objective/q35.webp",
-    "solutionImage": "assets/questions/north-south-objective/a35.webp"
+    "solutionImage": "assets/questions/north-south-objective/a35.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-objective-36",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 객관식 · 36번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 36,
     "questionImage": "assets/questions/north-south-objective/q36.webp",
-    "solutionImage": "assets/questions/north-south-objective/a36.webp"
+    "solutionImage": "assets/questions/north-south-objective/a36.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-objective-37",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 객관식 · 37번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 37,
     "questionImage": "assets/questions/north-south-objective/q37.webp",
-    "solutionImage": "assets/questions/north-south-objective/a37.webp"
+    "solutionImage": "assets/questions/north-south-objective/a37.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-objective-38",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 객관식 · 38번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 38,
     "questionImage": "assets/questions/north-south-objective/q38.webp",
-    "solutionImage": "assets/questions/north-south-objective/a38.webp"
+    "solutionImage": "assets/questions/north-south-objective/a38.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-objective-39",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 객관식 · 39번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "남북국 객관식",
     "questionNumber": 39,
     "questionImage": "assets/questions/north-south-objective/q39.webp",
-    "solutionImage": "assets/questions/north-south-objective/a39.webp"
+    "solutionImage": "assets/questions/north-south-objective/a39.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-objective-40",
@@ -1677,7 +1816,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 40,
     "questionImage": "assets/questions/north-south-objective/q40.webp",
-    "solutionImage": "assets/questions/north-south-objective/a40.webp"
+    "solutionImage": "assets/questions/north-south-objective/a40.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-41",
@@ -1689,7 +1829,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 41,
     "questionImage": "assets/questions/north-south-objective/q41.webp",
-    "solutionImage": "assets/questions/north-south-objective/a41.webp"
+    "solutionImage": "assets/questions/north-south-objective/a41.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-42",
@@ -1701,7 +1842,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 42,
     "questionImage": "assets/questions/north-south-objective/q42.webp",
-    "solutionImage": "assets/questions/north-south-objective/a42.webp"
+    "solutionImage": "assets/questions/north-south-objective/a42.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-43",
@@ -1713,7 +1855,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 43,
     "questionImage": "assets/questions/north-south-objective/q43.webp",
-    "solutionImage": "assets/questions/north-south-objective/a43.webp"
+    "solutionImage": "assets/questions/north-south-objective/a43.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-44",
@@ -1725,7 +1868,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 44,
     "questionImage": "assets/questions/north-south-objective/q44.webp",
-    "solutionImage": "assets/questions/north-south-objective/a44.webp"
+    "solutionImage": "assets/questions/north-south-objective/a44.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-45",
@@ -1737,7 +1881,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 45,
     "questionImage": "assets/questions/north-south-objective/q45.webp",
-    "solutionImage": "assets/questions/north-south-objective/a45.webp"
+    "solutionImage": "assets/questions/north-south-objective/a45.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-objective-46",
@@ -1749,7 +1894,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 46,
     "questionImage": "assets/questions/north-south-objective/q46.webp",
-    "solutionImage": "assets/questions/north-south-objective/a46.webp"
+    "solutionImage": "assets/questions/north-south-objective/a46.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-47",
@@ -1761,7 +1907,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 47,
     "questionImage": "assets/questions/north-south-objective/q47.webp",
-    "solutionImage": "assets/questions/north-south-objective/a47.webp"
+    "solutionImage": "assets/questions/north-south-objective/a47.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-48",
@@ -1773,7 +1920,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 48,
     "questionImage": "assets/questions/north-south-objective/q48.webp",
-    "solutionImage": "assets/questions/north-south-objective/a48.webp"
+    "solutionImage": "assets/questions/north-south-objective/a48.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-49",
@@ -1785,7 +1933,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 49,
     "questionImage": "assets/questions/north-south-objective/q49.webp",
-    "solutionImage": "assets/questions/north-south-objective/a49.webp"
+    "solutionImage": "assets/questions/north-south-objective/a49.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-objective-50",
@@ -1797,7 +1946,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 객관식",
     "questionNumber": 50,
     "questionImage": "assets/questions/north-south-objective/q50.webp",
-    "solutionImage": "assets/questions/north-south-objective/a50.webp"
+    "solutionImage": "assets/questions/north-south-objective/a50.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-subjective-01",
@@ -1809,7 +1959,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 1,
     "questionImage": "assets/questions/north-south-subjective/q01.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a01.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a01.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-subjective-02",
@@ -1821,7 +1972,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 2,
     "questionImage": "assets/questions/north-south-subjective/q02.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a02.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a02.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-03",
@@ -1833,7 +1985,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 3,
     "questionImage": "assets/questions/north-south-subjective/q03.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a03.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a03.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-04",
@@ -1845,7 +1998,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 4,
     "questionImage": "assets/questions/north-south-subjective/q04.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a04.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a04.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-subjective-05",
@@ -1857,7 +2011,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 5,
     "questionImage": "assets/questions/north-south-subjective/q05.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a05.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a05.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-06",
@@ -1869,7 +2024,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 6,
     "questionImage": "assets/questions/north-south-subjective/q06.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a06.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a06.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-07",
@@ -1881,7 +2037,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 7,
     "questionImage": "assets/questions/north-south-subjective/q07.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a07.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a07.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-08",
@@ -1893,7 +2050,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 8,
     "questionImage": "assets/questions/north-south-subjective/q08.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a08.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a08.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-09",
@@ -1905,7 +2063,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 9,
     "questionImage": "assets/questions/north-south-subjective/q09.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a09.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a09.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-subjective-10",
@@ -1917,7 +2076,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 10,
     "questionImage": "assets/questions/north-south-subjective/q10.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a10.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a10.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-11",
@@ -1929,7 +2089,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 11,
     "questionImage": "assets/questions/north-south-subjective/q11.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a11.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a11.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-12",
@@ -1941,7 +2102,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 12,
     "questionImage": "assets/questions/north-south-subjective/q12.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a12.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a12.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-13",
@@ -1953,7 +2115,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 13,
     "questionImage": "assets/questions/north-south-subjective/q13.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a13.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a13.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-subjective-14",
@@ -1965,7 +2128,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 14,
     "questionImage": "assets/questions/north-south-subjective/q14.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a14.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a14.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-15",
@@ -1977,7 +2141,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 15,
     "questionImage": "assets/questions/north-south-subjective/q15.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a15.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a15.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-16",
@@ -1989,7 +2154,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 16,
     "questionImage": "assets/questions/north-south-subjective/q16.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a16.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a16.webp",
+    "conceptId": "north-south-culture"
   },
   {
     "id": "pdf-north-south-subjective-17",
@@ -2001,7 +2167,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 17,
     "questionImage": "assets/questions/north-south-subjective/q17.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a17.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a17.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-subjective-18",
@@ -2013,7 +2180,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 18,
     "questionImage": "assets/questions/north-south-subjective/q18.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a18.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a18.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-subjective-19",
@@ -2025,7 +2193,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 19,
     "questionImage": "assets/questions/north-south-subjective/q19.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a19.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a19.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-subjective-20",
@@ -2037,7 +2206,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 20,
     "questionImage": "assets/questions/north-south-subjective/q20.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a20.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a20.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-subjective-21",
@@ -2049,7 +2219,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 21,
     "questionImage": "assets/questions/north-south-subjective/q21.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a21.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a21.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-22",
@@ -2061,7 +2232,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 22,
     "questionImage": "assets/questions/north-south-subjective/q22.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a22.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a22.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-subjective-23",
@@ -2073,7 +2245,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 23,
     "questionImage": "assets/questions/north-south-subjective/q23.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a23.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a23.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-24",
@@ -2085,7 +2258,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 24,
     "questionImage": "assets/questions/north-south-subjective/q24.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a24.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a24.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-25",
@@ -2097,7 +2271,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 25,
     "questionImage": "assets/questions/north-south-subjective/q25.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a25.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a25.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-subjective-26",
@@ -2109,7 +2284,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 26,
     "questionImage": "assets/questions/north-south-subjective/q26.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a26.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a26.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-subjective-27",
@@ -2121,91 +2297,99 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 27,
     "questionImage": "assets/questions/north-south-subjective/q27.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a27.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a27.webp",
+    "conceptId": "late-silla"
   },
   {
     "id": "pdf-north-south-subjective-28",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "later-three",
+    "eraTitle": "후삼국 시대",
     "conceptTitle": "남북국 주관식 · 28번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "남북국 주관식",
     "questionNumber": 28,
     "questionImage": "assets/questions/north-south-subjective/q28.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a28.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a28.webp",
+    "conceptId": "later-baekje"
   },
   {
     "id": "pdf-north-south-subjective-29",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 주관식 · 29번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "남북국 주관식",
     "questionNumber": 29,
     "questionImage": "assets/questions/north-south-subjective/q29.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a29.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a29.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-subjective-30",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 주관식 · 30번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "남북국 주관식",
     "questionNumber": 30,
     "questionImage": "assets/questions/north-south-subjective/q30.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a30.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a30.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-subjective-31",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 주관식 · 31번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "남북국 주관식",
     "questionNumber": 31,
     "questionImage": "assets/questions/north-south-subjective/q31.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a31.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a31.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-subjective-32",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 주관식 · 32번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "남북국 주관식",
     "questionNumber": 32,
     "questionImage": "assets/questions/north-south-subjective/q32.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a32.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a32.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-subjective-33",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 주관식 · 33번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "남북국 주관식",
     "questionNumber": 33,
     "questionImage": "assets/questions/north-south-subjective/q33.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a33.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a33.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-subjective-34",
-    "eraId": "north-south",
-    "eraTitle": "남북국 시대",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "남북국 주관식 · 34번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "남북국 주관식",
     "questionNumber": 34,
     "questionImage": "assets/questions/north-south-subjective/q34.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a34.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a34.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-north-south-subjective-35",
@@ -2217,7 +2401,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 35,
     "questionImage": "assets/questions/north-south-subjective/q35.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a35.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a35.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-subjective-36",
@@ -2229,7 +2414,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 36,
     "questionImage": "assets/questions/north-south-subjective/q36.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a36.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a36.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-subjective-37",
@@ -2241,7 +2427,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 37,
     "questionImage": "assets/questions/north-south-subjective/q37.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a37.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a37.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-subjective-38",
@@ -2253,7 +2440,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 38,
     "questionImage": "assets/questions/north-south-subjective/q38.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a38.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a38.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-subjective-39",
@@ -2265,7 +2453,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 39,
     "questionImage": "assets/questions/north-south-subjective/q39.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a39.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a39.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-subjective-40",
@@ -2277,7 +2466,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 40,
     "questionImage": "assets/questions/north-south-subjective/q40.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a40.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a40.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-41",
@@ -2289,7 +2479,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 41,
     "questionImage": "assets/questions/north-south-subjective/q41.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a41.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a41.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-42",
@@ -2301,7 +2492,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 42,
     "questionImage": "assets/questions/north-south-subjective/q42.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a42.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a42.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-43",
@@ -2313,7 +2505,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 43,
     "questionImage": "assets/questions/north-south-subjective/q43.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a43.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a43.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-subjective-44",
@@ -2325,7 +2518,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 44,
     "questionImage": "assets/questions/north-south-subjective/q44.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a44.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a44.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-north-south-subjective-45",
@@ -2337,7 +2531,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 45,
     "questionImage": "assets/questions/north-south-subjective/q45.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a45.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a45.webp",
+    "conceptId": "balhae"
   },
   {
     "id": "pdf-north-south-subjective-46",
@@ -2349,7 +2544,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 46,
     "questionImage": "assets/questions/north-south-subjective/q46.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a46.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a46.webp",
+    "conceptId": "unification"
   },
   {
     "id": "pdf-north-south-subjective-47",
@@ -2361,271 +2557,294 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "남북국 주관식",
     "questionNumber": 47,
     "questionImage": "assets/questions/north-south-subjective/q47.webp",
-    "solutionImage": "assets/questions/north-south-subjective/a47.webp"
+    "solutionImage": "assets/questions/north-south-subjective/a47.webp",
+    "conceptId": "unified-silla"
   },
   {
     "id": "pdf-prehistory-objective-01",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 1번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 1,
     "questionImage": "assets/questions/prehistory-objective/q01.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a01.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a01.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-02",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 2번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 2,
     "questionImage": "assets/questions/prehistory-objective/q02.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a02.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a02.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-03",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 3번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 3,
     "questionImage": "assets/questions/prehistory-objective/q03.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a03.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a03.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-04",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 4번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 4,
     "questionImage": "assets/questions/prehistory-objective/q04.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a04.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a04.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-05",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 5번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 5,
     "questionImage": "assets/questions/prehistory-objective/q05.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a05.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a05.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-06",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 6번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 6,
     "questionImage": "assets/questions/prehistory-objective/q06.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a06.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a06.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-07",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 7번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 7,
     "questionImage": "assets/questions/prehistory-objective/q07.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a07.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a07.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-08",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 8번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 8,
     "questionImage": "assets/questions/prehistory-objective/q08.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a08.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a08.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-09",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 9번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 9,
     "questionImage": "assets/questions/prehistory-objective/q09.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a09.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a09.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-10",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 10번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 10,
     "questionImage": "assets/questions/prehistory-objective/q10.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a10.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a10.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-11",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 11번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 11,
     "questionImage": "assets/questions/prehistory-objective/q11.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a11.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a11.webp",
+    "conceptId": "baekje"
   },
   {
     "id": "pdf-prehistory-objective-12",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 12번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 12,
     "questionImage": "assets/questions/prehistory-objective/q12.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a12.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a12.webp",
+    "conceptId": "baekje"
   },
   {
     "id": "pdf-prehistory-objective-13",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 13번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 13,
     "questionImage": "assets/questions/prehistory-objective/q13.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a13.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a13.webp",
+    "conceptId": "gaya"
   },
   {
     "id": "pdf-prehistory-objective-14",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 14번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 14,
     "questionImage": "assets/questions/prehistory-objective/q14.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a14.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a14.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-15",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 15번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 15,
     "questionImage": "assets/questions/prehistory-objective/q15.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a15.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a15.webp",
+    "conceptId": "early-goguryeo"
   },
   {
     "id": "pdf-prehistory-objective-16",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 16번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 16,
     "questionImage": "assets/questions/prehistory-objective/q16.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a16.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a16.webp",
+    "conceptId": "silla"
   },
   {
     "id": "pdf-prehistory-objective-17",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 17번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 17,
     "questionImage": "assets/questions/prehistory-objective/q17.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a17.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a17.webp",
+    "conceptId": "silla"
   },
   {
     "id": "pdf-prehistory-objective-18",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 18번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 18,
     "questionImage": "assets/questions/prehistory-objective/q18.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a18.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a18.webp",
+    "conceptId": "gaya"
   },
   {
     "id": "pdf-prehistory-objective-19",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 19번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 19,
     "questionImage": "assets/questions/prehistory-objective/q19.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a19.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a19.webp",
+    "conceptId": "gaya"
   },
   {
     "id": "pdf-prehistory-objective-20",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 20번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 20,
     "questionImage": "assets/questions/prehistory-objective/q20.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a20.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a20.webp",
+    "conceptId": "silla"
   },
   {
     "id": "pdf-prehistory-objective-21",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 21번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 21,
     "questionImage": "assets/questions/prehistory-objective/q21.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a21.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a21.webp",
+    "conceptId": "gaya"
   },
   {
     "id": "pdf-prehistory-objective-22",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 객관식 · 22번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 22,
     "questionImage": "assets/questions/prehistory-objective/q22.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a22.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a22.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-objective-23",
@@ -2637,7 +2856,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 23,
     "questionImage": "assets/questions/prehistory-objective/q23.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a23.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a23.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-objective-24",
@@ -2649,7 +2869,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 24,
     "questionImage": "assets/questions/prehistory-objective/q24.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a24.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a24.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-objective-25",
@@ -2661,7 +2882,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 25,
     "questionImage": "assets/questions/prehistory-objective/q25.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a25.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a25.webp",
+    "conceptId": "paleolithic"
   },
   {
     "id": "pdf-prehistory-objective-26",
@@ -2673,7 +2895,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 26,
     "questionImage": "assets/questions/prehistory-objective/q26.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a26.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a26.webp",
+    "conceptId": "paleolithic"
   },
   {
     "id": "pdf-prehistory-objective-27",
@@ -2685,7 +2908,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 27,
     "questionImage": "assets/questions/prehistory-objective/q27.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a27.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a27.webp",
+    "conceptId": "paleolithic"
   },
   {
     "id": "pdf-prehistory-objective-28",
@@ -2697,7 +2921,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 28,
     "questionImage": "assets/questions/prehistory-objective/q28.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a28.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a28.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-objective-29",
@@ -2709,7 +2934,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 29,
     "questionImage": "assets/questions/prehistory-objective/q29.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a29.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a29.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-objective-30",
@@ -2721,7 +2947,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 30,
     "questionImage": "assets/questions/prehistory-objective/q30.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a30.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a30.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-objective-31",
@@ -2733,7 +2960,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 31,
     "questionImage": "assets/questions/prehistory-objective/q31.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a31.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a31.webp",
+    "conceptId": "gojoseon"
   },
   {
     "id": "pdf-prehistory-objective-32",
@@ -2745,7 +2973,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 32,
     "questionImage": "assets/questions/prehistory-objective/q32.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a32.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a32.webp",
+    "conceptId": "bronze"
   },
   {
     "id": "pdf-prehistory-objective-33",
@@ -2757,7 +2986,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 33,
     "questionImage": "assets/questions/prehistory-objective/q33.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a33.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a33.webp",
+    "conceptId": "gojoseon"
   },
   {
     "id": "pdf-prehistory-objective-34",
@@ -2769,7 +2999,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 34,
     "questionImage": "assets/questions/prehistory-objective/q34.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a34.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a34.webp",
+    "conceptId": "gojoseon"
   },
   {
     "id": "pdf-prehistory-objective-35",
@@ -2781,7 +3012,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 35,
     "questionImage": "assets/questions/prehistory-objective/q35.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a35.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a35.webp",
+    "conceptId": "gojoseon"
   },
   {
     "id": "pdf-prehistory-objective-36",
@@ -2793,7 +3025,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 36,
     "questionImage": "assets/questions/prehistory-objective/q36.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a36.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a36.webp",
+    "conceptId": "gojoseon"
   },
   {
     "id": "pdf-prehistory-objective-37",
@@ -2805,7 +3038,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 37,
     "questionImage": "assets/questions/prehistory-objective/q37.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a37.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a37.webp",
+    "conceptId": "bronze"
   },
   {
     "id": "pdf-prehistory-objective-38",
@@ -2817,55 +3051,60 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 38,
     "questionImage": "assets/questions/prehistory-objective/q38.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a38.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a38.webp",
+    "conceptId": "gojoseon"
   },
   {
     "id": "pdf-prehistory-objective-39",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 39번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 39,
     "questionImage": "assets/questions/prehistory-objective/q39.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a39.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a39.webp",
+    "conceptId": "samhan"
   },
   {
     "id": "pdf-prehistory-objective-40",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 40번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 40,
     "questionImage": "assets/questions/prehistory-objective/q40.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a40.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a40.webp",
+    "conceptId": "buyeo"
   },
   {
     "id": "pdf-prehistory-objective-41",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 41번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 41,
     "questionImage": "assets/questions/prehistory-objective/q41.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a41.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a41.webp",
+    "conceptId": "buyeo"
   },
   {
     "id": "pdf-prehistory-objective-42",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 42번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 42,
     "questionImage": "assets/questions/prehistory-objective/q42.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a42.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a42.webp",
+    "conceptId": "buyeo"
   },
   {
     "id": "pdf-prehistory-objective-43",
@@ -2877,7 +3116,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 43,
     "questionImage": "assets/questions/prehistory-objective/q43.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a43.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a43.webp",
+    "conceptId": "iron-age"
   },
   {
     "id": "pdf-prehistory-objective-44",
@@ -2889,403 +3129,437 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 44,
     "questionImage": "assets/questions/prehistory-objective/q44.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a44.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a44.webp",
+    "conceptId": "iron-age"
   },
   {
     "id": "pdf-prehistory-objective-45",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 45번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 45,
     "questionImage": "assets/questions/prehistory-objective/q45.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a45.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a45.webp",
+    "conceptId": "samhan"
   },
   {
     "id": "pdf-prehistory-objective-46",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 46번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 46,
     "questionImage": "assets/questions/prehistory-objective/q46.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a46.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a46.webp",
+    "conceptId": "okjeo-dongye"
   },
   {
     "id": "pdf-prehistory-objective-47",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 47번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 47,
     "questionImage": "assets/questions/prehistory-objective/q47.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a47.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a47.webp",
+    "conceptId": "buyeo"
   },
   {
     "id": "pdf-prehistory-objective-48",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 48번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 48,
     "questionImage": "assets/questions/prehistory-objective/q48.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a48.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a48.webp",
+    "conceptId": "okjeo-dongye"
   },
   {
     "id": "pdf-prehistory-objective-49",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 49번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 49,
     "questionImage": "assets/questions/prehistory-objective/q49.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a49.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a49.webp",
+    "conceptId": "okjeo-dongye"
   },
   {
     "id": "pdf-prehistory-objective-50",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 객관식 · 50번",
     "type": "pdf",
     "sourceType": "objective",
     "sourceTitle": "선사시대 객관식",
     "questionNumber": 50,
     "questionImage": "assets/questions/prehistory-objective/q50.webp",
-    "solutionImage": "assets/questions/prehistory-objective/a50.webp"
+    "solutionImage": "assets/questions/prehistory-objective/a50.webp",
+    "conceptId": "buyeo"
   },
   {
     "id": "pdf-prehistory-subjective-01",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 1번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 1,
     "questionImage": "assets/questions/prehistory-subjective/q01.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a01.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a01.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-02",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 2번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 2,
     "questionImage": "assets/questions/prehistory-subjective/q02.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a02.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a02.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-03",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 3번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 3,
     "questionImage": "assets/questions/prehistory-subjective/q03.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a03.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a03.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-04",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 4번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 4,
     "questionImage": "assets/questions/prehistory-subjective/q04.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a04.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a04.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-05",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 5번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 5,
     "questionImage": "assets/questions/prehistory-subjective/q05.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a05.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a05.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-06",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 6번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 6,
     "questionImage": "assets/questions/prehistory-subjective/q06.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a06.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a06.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-07",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 7번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 7,
     "questionImage": "assets/questions/prehistory-subjective/q07.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a07.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a07.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-08",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 8번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 8,
     "questionImage": "assets/questions/prehistory-subjective/q08.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a08.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a08.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-09",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 9번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 9,
     "questionImage": "assets/questions/prehistory-subjective/q09.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a09.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a09.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-10",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 10번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 10,
     "questionImage": "assets/questions/prehistory-subjective/q10.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a10.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a10.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-11",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 11번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 11,
     "questionImage": "assets/questions/prehistory-subjective/q11.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a11.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a11.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-12",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 12번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 12,
     "questionImage": "assets/questions/prehistory-subjective/q12.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a12.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a12.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-13",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 13번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 13,
     "questionImage": "assets/questions/prehistory-subjective/q13.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a13.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a13.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-14",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 14번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 14,
     "questionImage": "assets/questions/prehistory-subjective/q14.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a14.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a14.webp",
+    "conceptId": "three-culture"
   },
   {
     "id": "pdf-prehistory-subjective-15",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 15번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 15,
     "questionImage": "assets/questions/prehistory-subjective/q15.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a15.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a15.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-prehistory-subjective-16",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 16번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 16,
     "questionImage": "assets/questions/prehistory-subjective/q16.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a16.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a16.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-prehistory-subjective-17",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 17번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 17,
     "questionImage": "assets/questions/prehistory-subjective/q17.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a17.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a17.webp",
+    "conceptId": "baekje"
   },
   {
     "id": "pdf-prehistory-subjective-18",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 18번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 18,
     "questionImage": "assets/questions/prehistory-subjective/q18.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a18.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a18.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-prehistory-subjective-19",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 19번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 19,
     "questionImage": "assets/questions/prehistory-subjective/q19.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a19.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a19.webp",
+    "conceptId": "baekje"
   },
   {
     "id": "pdf-prehistory-subjective-20",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 20번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 20,
     "questionImage": "assets/questions/prehistory-subjective/q20.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a20.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a20.webp",
+    "conceptId": "baekje"
   },
   {
     "id": "pdf-prehistory-subjective-21",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 21번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 21,
     "questionImage": "assets/questions/prehistory-subjective/q21.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a21.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a21.webp",
+    "conceptId": "baekje"
   },
   {
     "id": "pdf-prehistory-subjective-22",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 22번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 22,
     "questionImage": "assets/questions/prehistory-subjective/q22.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a22.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a22.webp",
+    "conceptId": "silla"
   },
   {
     "id": "pdf-prehistory-subjective-23",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 23번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 23,
     "questionImage": "assets/questions/prehistory-subjective/q23.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a23.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a23.webp",
+    "conceptId": "gaya"
   },
   {
     "id": "pdf-prehistory-subjective-24",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 24번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 24,
     "questionImage": "assets/questions/prehistory-subjective/q24.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a24.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a24.webp",
+    "conceptId": "goguryeo"
   },
   {
     "id": "pdf-prehistory-subjective-25",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 25번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 25,
     "questionImage": "assets/questions/prehistory-subjective/q25.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a25.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a25.webp",
+    "conceptId": "silla"
   },
   {
     "id": "pdf-prehistory-subjective-26",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 26번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 26,
     "questionImage": "assets/questions/prehistory-subjective/q26.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a26.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a26.webp",
+    "conceptId": "silla"
   },
   {
     "id": "pdf-prehistory-subjective-27",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "three-kingdoms",
+    "eraTitle": "삼국·가야",
     "conceptTitle": "선사시대 주관식 · 27번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 27,
     "questionImage": "assets/questions/prehistory-subjective/q27.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a27.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a27.webp",
+    "conceptId": "silla"
   },
   {
     "id": "pdf-prehistory-subjective-28",
@@ -3297,7 +3571,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 28,
     "questionImage": "assets/questions/prehistory-subjective/q28.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a28.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a28.webp",
+    "conceptId": "paleolithic"
   },
   {
     "id": "pdf-prehistory-subjective-29",
@@ -3309,7 +3584,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 29,
     "questionImage": "assets/questions/prehistory-subjective/q29.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a29.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a29.webp",
+    "conceptId": "paleolithic"
   },
   {
     "id": "pdf-prehistory-subjective-30",
@@ -3321,7 +3597,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 30,
     "questionImage": "assets/questions/prehistory-subjective/q30.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a30.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a30.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-subjective-31",
@@ -3333,7 +3610,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 31,
     "questionImage": "assets/questions/prehistory-subjective/q31.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a31.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a31.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-subjective-32",
@@ -3345,7 +3623,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 32,
     "questionImage": "assets/questions/prehistory-subjective/q32.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a32.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a32.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-subjective-33",
@@ -3357,7 +3636,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 33,
     "questionImage": "assets/questions/prehistory-subjective/q33.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a33.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a33.webp",
+    "conceptId": "neolithic"
   },
   {
     "id": "pdf-prehistory-subjective-34",
@@ -3369,7 +3649,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 34,
     "questionImage": "assets/questions/prehistory-subjective/q34.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a34.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a34.webp",
+    "conceptId": "bronze"
   },
   {
     "id": "pdf-prehistory-subjective-35",
@@ -3381,7 +3662,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 35,
     "questionImage": "assets/questions/prehistory-subjective/q35.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a35.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a35.webp",
+    "conceptId": "bronze"
   },
   {
     "id": "pdf-prehistory-subjective-36",
@@ -3393,7 +3675,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 36,
     "questionImage": "assets/questions/prehistory-subjective/q36.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a36.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a36.webp",
+    "conceptId": "bronze"
   },
   {
     "id": "pdf-prehistory-subjective-37",
@@ -3405,7 +3688,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 37,
     "questionImage": "assets/questions/prehistory-subjective/q37.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a37.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a37.webp",
+    "conceptId": "gojoseon"
   },
   {
     "id": "pdf-prehistory-subjective-38",
@@ -3417,7 +3701,8 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 38,
     "questionImage": "assets/questions/prehistory-subjective/q38.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a38.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a38.webp",
+    "conceptId": "gojoseon"
   },
   {
     "id": "pdf-prehistory-subjective-39",
@@ -3429,55 +3714,60 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 39,
     "questionImage": "assets/questions/prehistory-subjective/q39.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a39.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a39.webp",
+    "conceptId": "bronze"
   },
   {
     "id": "pdf-prehistory-subjective-40",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 40번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 40,
     "questionImage": "assets/questions/prehistory-subjective/q40.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a40.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a40.webp",
+    "conceptId": "samhan"
   },
   {
     "id": "pdf-prehistory-subjective-41",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 41번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 41,
     "questionImage": "assets/questions/prehistory-subjective/q41.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a41.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a41.webp",
+    "conceptId": "okjeo-dongye"
   },
   {
     "id": "pdf-prehistory-subjective-42",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 42번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 42,
     "questionImage": "assets/questions/prehistory-subjective/q42.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a42.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a42.webp",
+    "conceptId": "buyeo"
   },
   {
     "id": "pdf-prehistory-subjective-43",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 43번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 43,
     "questionImage": "assets/questions/prehistory-subjective/q43.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a43.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a43.webp",
+    "conceptId": "okjeo-dongye"
   },
   {
     "id": "pdf-prehistory-subjective-44",
@@ -3489,19 +3779,21 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 44,
     "questionImage": "assets/questions/prehistory-subjective/q44.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a44.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a44.webp",
+    "conceptId": "iron-age"
   },
   {
     "id": "pdf-prehistory-subjective-45",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 45번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 45,
     "questionImage": "assets/questions/prehistory-subjective/q45.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a45.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a45.webp",
+    "conceptId": "okjeo-dongye"
   },
   {
     "id": "pdf-prehistory-subjective-46",
@@ -3513,54 +3805,59 @@ window.PDF_QUESTIONS = [
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 46,
     "questionImage": "assets/questions/prehistory-subjective/q46.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a46.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a46.webp",
+    "conceptId": "iron-age"
   },
   {
     "id": "pdf-prehistory-subjective-47",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 47번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 47,
     "questionImage": "assets/questions/prehistory-subjective/q47.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a47.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a47.webp",
+    "conceptId": "early-goguryeo"
   },
   {
     "id": "pdf-prehistory-subjective-48",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 48번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 48,
     "questionImage": "assets/questions/prehistory-subjective/q48.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a48.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a48.webp",
+    "conceptId": "early-goguryeo"
   },
   {
     "id": "pdf-prehistory-subjective-49",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 49번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 49,
     "questionImage": "assets/questions/prehistory-subjective/q49.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a49.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a49.webp",
+    "conceptId": "early-goguryeo"
   },
   {
     "id": "pdf-prehistory-subjective-50",
-    "eraId": "prehistory",
-    "eraTitle": "선사·고조선",
+    "eraId": "several-states",
+    "eraTitle": "여러 나라의 성장",
     "conceptTitle": "선사시대 주관식 · 50번",
     "type": "pdf",
     "sourceType": "subjective",
     "sourceTitle": "선사시대 주관식",
     "questionNumber": 50,
     "questionImage": "assets/questions/prehistory-subjective/q50.webp",
-    "solutionImage": "assets/questions/prehistory-subjective/a50.webp"
+    "solutionImage": "assets/questions/prehistory-subjective/a50.webp",
+    "conceptId": "samhan"
   }
 ];

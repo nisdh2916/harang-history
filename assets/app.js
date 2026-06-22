@@ -4,6 +4,7 @@
   var data = window.HISTORY_DATA;
   var app = document.getElementById("app");
   var page = document.body.getAttribute("data-page");
+  var examInsights = window.EXAM_INSIGHTS && window.EXAM_INSIGHTS.concepts ? window.EXAM_INSIGHTS.concepts : {};
   var progressKey = "harang-history-progress-v1";
   var wrongKey = "harang-history-wrong-v1";
 
@@ -55,6 +56,13 @@
   function setColors(era) {
     document.documentElement.style.setProperty("--card-a", era.a);
     document.documentElement.style.setProperty("--card-b", era.b);
+  }
+
+  function examPriority(count) {
+    if (count >= 15) { return "최우선"; }
+    if (count >= 9) { return "자주 출제"; }
+    if (count >= 5) { return "반복 출제"; }
+    return "기본 확인";
   }
 
   function characterSlot(era, label) {
@@ -169,10 +177,13 @@
     var completed = activeStoredValues(progressKey);
     var cards = era.concepts.map(function (concept, index) {
       var done = completed.indexOf(concept.id) !== -1;
+      var insight = examInsights[concept.id];
       return [
         '<a class="concept-card', done ? " done" : "", '" href="note.html?note=', concept.id, '">',
         '<div class="concept-thumb"><strong>', String(index + 1).padStart(2, "0"), '</strong><span class="card-count">', index + 1, "</span></div>",
-        '<div class="card-copy"><b>', escapeHtml(concept.title), "</b><small>", escapeHtml(concept.tag), "</small></div>",
+        '<div class="card-copy"><b>', escapeHtml(concept.title), "</b><small>", escapeHtml(concept.tag), "</small>",
+        insight ? '<span class="exam-card-count">PDF ' + insight.count + '문항 · ' + examPriority(insight.count) + '</span>' : "",
+        "</div>",
         "</a>"
       ].join("");
     }).join("");
@@ -206,6 +217,7 @@
     var next = era.concepts[index + 1];
     var completed = activeStoredValues(progressKey);
     var isDone = completed.indexOf(concept.id) !== -1;
+    var insight = examInsights[concept.id];
     setColors(era);
     document.title = concept.title + " | 하랑의 한국사 탐험대";
 
@@ -214,6 +226,18 @@
     var answers = concept.quiz.choices.map(function (choice, choiceIndex) {
       return '<button class="answer-option" type="button" data-answer="' + choiceIndex + '">' + (choiceIndex + 1) + ". " + escapeHtml(choice) + "</button>";
     }).join("");
+    var examSection = "";
+    if (insight) {
+      var asks = insight.asks.map(function (item) { return "<li>" + escapeHtml(item) + "</li>"; }).join("");
+      examSection = [
+        '<section class="note-section exam-insight" id="exam">',
+        '<div class="exam-insight-head"><div><p>실제 PDF ', insight.count, '문항 분석</p><h2>시험에 이렇게 나와요</h2></div><span>', examPriority(insight.count), "</span></div>",
+        '<div class="exam-format"><small>많이 나온 문제 형식</small><b>', insight.formats.map(escapeHtml).join(" · "), "</b></div>",
+        '<ol class="exam-asks">', asks, "</ol>",
+        '<div class="exam-trap"><b>헷갈림 방지</b><p>', escapeHtml(insight.trap), "</p></div>",
+        "</section>"
+      ].join("");
+    }
 
     app.innerHTML = [
       '<div class="breadcrumbs"><a href="index.html">시대별 학습</a><span>›</span><a href="era.html?era=', era.id, '">', escapeHtml(era.title), "</a><span>›</span><b>", escapeHtml(concept.title), "</b></div>",
@@ -221,6 +245,7 @@
       '<article class="note-main">',
       '<header class="note-title"><p class="eyebrow">', escapeHtml(concept.tag), "</p><h1>", escapeHtml(concept.title), "</h1><p>", escapeHtml(concept.summary), "</p></header>",
       '<section class="note-section" id="core"><h2>핵심 3줄</h2><ol class="three-lines">', points, "</ol></section>",
+      examSection,
       '<section class="note-section" id="flow"><h2>흐름으로 연결하기</h2><div class="flow">', flow, "</div></section>",
       '<section class="note-section" id="memory"><h2>한 문장 암기</h2><div class="memory-box">“', escapeHtml(concept.memory), "”</div></section>",
       '<section class="note-section mini-quiz" id="check"><h2>30초 확인 문제</h2><h3>', escapeHtml(concept.quiz.question), '</h3><div class="answer-list">', answers, '</div><p class="answer-result" aria-live="polite"></p></section>',
@@ -229,7 +254,7 @@
       next ? '<a class="btn btn-small btn-primary" href="note.html?note=' + next.id + '">' + escapeHtml(next.title) + " →</a>" : '<a class="btn btn-small btn-primary" href="quiz.html?era=' + era.id + '">시대 퀴즈 →</a>',
       "</nav>",
       "</article>",
-      '<aside class="note-side"><h2>이 노트의 순서</h2><a href="#core">1. 핵심 3줄</a><a href="#flow">2. 흐름 연결</a><a href="#memory">3. 한 문장 암기</a><a href="#check">4. 확인 문제</a>',
+      '<aside class="note-side"><h2>이 노트의 순서</h2><a href="#core">1. 핵심 3줄</a>', insight ? '<a href="#exam">2. 출제 포인트</a>' : "", '<a href="#flow">', insight ? "3" : "2", '. 흐름 연결</a><a href="#memory">', insight ? "4" : "3", '. 한 문장 암기</a><a href="#check">', insight ? "5" : "4", '. 확인 문제</a>',
       '<button class="btn ', isDone ? "" : "btn-dark", '" id="complete-note" type="button">', isDone ? "✓ 학습 완료됨" : "학습 완료 체크", "</button>",
       '<a class="btn btn-small" href="era.html?era=', era.id, '">시대 목록으로</a></aside>',
       "</div>"
@@ -287,7 +312,13 @@
       });
     });
     if (Array.isArray(window.PDF_QUESTIONS)) {
-      questions = questions.concat(window.PDF_QUESTIONS);
+      questions = questions.concat(window.PDF_QUESTIONS.map(function (question) {
+        var matched = findConcept(question.conceptId);
+        if (matched) {
+          question.conceptTitle = matched.concept.title + " · PDF " + question.questionNumber + "번";
+        }
+        return question;
+      }));
     }
     return questions;
   }
