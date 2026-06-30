@@ -323,6 +323,53 @@
     return questions;
   }
 
+  function normalizeAnswer(value) {
+    return String(value || "")
+      .toLowerCase()
+      .replace(/[０-９]/g, function (char) { return String.fromCharCode(char.charCodeAt(0) - 65248); })
+      .replace(/[①㉠]/g, "1")
+      .replace(/[②㉡]/g, "2")
+      .replace(/[③㉢]/g, "3")
+      .replace(/[④㉣]/g, "4")
+      .replace(/[⑤㉤]/g, "5")
+      .replace(/[o○ㅇ영]/g, "o")
+      .replace(/[ⅹ×]/g, "x")
+      .replace(/[^0-9a-z가-힣]/g, "");
+  }
+
+  function matchesPdfAnswer(input, question) {
+    var normalizedInput = normalizeAnswer(input);
+    var aliases = question.answerAliases || [];
+    if (!normalizedInput) {
+      return false;
+    }
+    return aliases.some(function (alias) {
+      var normalizedAlias = normalizeAnswer(alias);
+      if (!normalizedAlias) {
+        return false;
+      }
+      if (normalizedInput === normalizedAlias) {
+        return true;
+      }
+      return normalizedInput.length >= 2 && normalizedAlias.indexOf(normalizedInput) !== -1;
+    }) || (
+      question.checkMode === "clue" &&
+      normalizedInput.length >= 2 &&
+      normalizeAnswer(question.answerClue).indexOf(normalizedInput) !== -1
+    );
+  }
+
+  function pdfAnswerLabel(question) {
+    var displayAliases = (question.answerAliases || []).filter(function (alias) {
+      var normalized = normalizeAnswer(alias);
+      return normalized.length > 1 || normalized === "o" || normalized === "x";
+    });
+    if (displayAliases.length) {
+      return displayAliases.join(", ");
+    }
+    return question.answerClue || question.answerText || "해설을 확인해 주세요.";
+  }
+
   function dailyQuestions(questions) {
     var date = new Date();
     var seed = Number(String(date.getFullYear()) + String(date.getMonth() + 1).padStart(2, "0") + String(date.getDate()).padStart(2, "0"));
@@ -418,57 +465,60 @@
       }
 
       var question = list[state.index];
-      if (question.type === "pdf") {
+      if (question.type === "pdf-text") {
         stage.innerHTML = [
           '<article class="quiz-card pdf-quiz-card">',
           '<div class="question-meta"><span>', escapeHtml(question.eraTitle), " · ", escapeHtml(question.conceptTitle), '</span><span>', state.index + 1, " / ", list.length, '</span></div>',
           '<div class="pdf-source-badge">PDF ', question.sourceType === "objective" ? "객관식" : "주관식", '</div>',
-          '<img class="pdf-question-image" src="', escapeHtml(question.questionImage), '" alt="', escapeHtml(question.sourceTitle), " ", question.questionNumber, '번 문제">',
-          '<button class="btn btn-dark pdf-reveal" id="reveal-solution" type="button">정답·해설 보기</button>',
-          '<section class="pdf-solution" id="pdf-solution" hidden><h3>정답·해설</h3><img src="', escapeHtml(question.solutionImage), '" alt="', escapeHtml(question.sourceTitle), " ", question.questionNumber, '번 정답과 해설">',
-          '<p>내 답과 비교한 뒤 직접 채점해 주세요.</p><div class="self-grade"><button type="button" class="btn grade-correct">맞았어요</button><button type="button" class="btn grade-wrong">다시 볼게요</button></div></section>',
+          '<div class="pdf-question-text">', escapeHtml(question.questionText || ""), "</div>",
+          '<form class="typed-answer" id="typed-answer"><label for="pdf-answer">답 입력</label><div><input id="pdf-answer" autocomplete="off" placeholder="예: 묘청, O, X, 무령왕"><button class="btn btn-dark" type="submit">채점하기</button></div></form>',
           '<p class="answer-result" aria-live="polite"></p>',
+          '<details class="pdf-original"><summary>원문 이미지 보기</summary><img class="pdf-question-image" src="', escapeHtml(question.questionImage), '" alt="', escapeHtml(question.sourceTitle), " ", question.questionNumber, '번 원문 문제"></details>',
+          '<section class="pdf-solution" id="pdf-solution" hidden><h3>정답·해설</h3><p class="solution-text">', escapeHtml(question.solutionText || question.answerClue || ""), '</p><details><summary>해설 원문 이미지 보기</summary><img src="', escapeHtml(question.solutionImage), '" alt="', escapeHtml(question.sourceTitle), " ", question.questionNumber, '번 정답과 해설"></details></section>',
           '<div class="quiz-next"><button class="btn btn-primary" id="next-question" type="button" disabled>다음 문제 →</button></div>',
           '</article>'
         ].join("");
 
-        var revealButton = document.getElementById("reveal-solution");
+        var answerForm = document.getElementById("typed-answer");
+        var answerInput = document.getElementById("pdf-answer");
         var solution = document.getElementById("pdf-solution");
         var pdfResult = stage.querySelector(".answer-result");
         var pdfNextButton = document.getElementById("next-question");
 
-        revealButton.addEventListener("click", function () {
-          solution.hidden = false;
-          revealButton.hidden = true;
-          solution.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        });
-
-        function gradePdf(isCorrect) {
+        answerForm.addEventListener("submit", function (event) {
+          event.preventDefault();
           if (state.locked) {
+            return;
+          }
+          var typed = answerInput.value.trim();
+          if (!typed) {
+            pdfResult.textContent = "답을 먼저 입력해 주세요.";
+            pdfResult.classList.add("show");
             return;
           }
           state.locked = true;
           state.answered += 1;
+          var isCorrect = matchesPdfAnswer(typed, question);
           var wrong = activeStoredValues(wrongKey);
           if (isCorrect) {
             state.correct += 1;
             wrong = wrong.filter(function (id) { return id !== question.id; });
-            pdfResult.textContent = "정답으로 기록했습니다.";
+            pdfResult.textContent = "정답입니다. 정답 기준: " + pdfAnswerLabel(question);
           } else {
             if (wrong.indexOf(question.id) === -1) {
               wrong.push(question.id);
             }
-            pdfResult.textContent = "오답 노트에 저장했습니다.";
+            pdfResult.textContent = "오답입니다. 정답 기준: " + pdfAnswerLabel(question);
           }
           safeSave(wrongKey, wrong);
-          solution.querySelectorAll("button").forEach(function (button) { button.disabled = true; });
+          answerInput.disabled = true;
+          answerForm.querySelector("button").disabled = true;
+          solution.hidden = false;
           pdfResult.classList.add("show");
           pdfNextButton.disabled = false;
           updateStats();
-        }
+        });
 
-        solution.querySelector(".grade-correct").addEventListener("click", function () { gradePdf(true); });
-        solution.querySelector(".grade-wrong").addEventListener("click", function () { gradePdf(false); });
         pdfNextButton.addEventListener("click", function () {
           state.index += 1;
           draw();
