@@ -343,7 +343,7 @@
     if (!normalizedInput) {
       return false;
     }
-    return aliases.some(function (alias) {
+    var matchedAlias = aliases.some(function (alias) {
       var normalizedAlias = normalizeAnswer(alias);
       if (!normalizedAlias) {
         return false;
@@ -352,7 +352,11 @@
         return true;
       }
       return normalizedInput.length >= 2 && normalizedAlias.indexOf(normalizedInput) !== -1;
-    }) || (
+    });
+    if (aliases.length) {
+      return matchedAlias;
+    }
+    return (
       question.checkMode === "clue" &&
       normalizedInput.length >= 2 &&
       normalizeAnswer(question.answerClue).indexOf(normalizedInput) !== -1
