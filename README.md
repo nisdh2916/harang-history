@@ -5,11 +5,13 @@
 ## 바로가기
 
 - 학습 사이트: https://harang-history.vercel.app/
+- 문제 검수: https://harang-history.vercel.app/review
 - 예비 주소: https://nisdh2916.github.io/harang-history/
 - 시대별 개념 노트 34개
 - 기본 퀴즈 34문제와 OCR 텍스트 변환 PDF 실전 문항 297문제(총 331문제)
 - 오늘의 10문제, 전체 문제, PDF 객관식·주관식, 시대별 문제, 오답 복습
 - PDF 문항은 답을 직접 입력하면 정답 기준과 비교해 자동 채점됩니다.
+- review.html에서 OCR 문제 텍스트와 정답 번호를 검수할 수 있습니다.
 - PDF 297문항 기반 개념별 출제 빈도·문제 유형·헷갈림 포인트 정리
 
 진도와 오답은 사용하는 브라우저에 저장됩니다.
@@ -20,6 +22,7 @@
 - era.html: 시대별 개념 목록
 - note.html: 개념 암기 노트
 - quiz.html: 한국사 퀴즈
+- review.html: PDF OCR 문제 검수
 
 캐릭터 이미지는 assets/characters, 학습 내용은 assets/data.js와 assets/scope-goryeo.js에서 관리합니다.
 PDF 문항 텍스트와 정답 기준은 assets/pdf-questions.js, 원문 확인용 문항·해설 이미지는 assets/questions에서 관리합니다.

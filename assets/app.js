@@ -7,6 +7,7 @@
   var examInsights = window.EXAM_INSIGHTS && window.EXAM_INSIGHTS.concepts ? window.EXAM_INSIGHTS.concepts : {};
   var progressKey = "harang-history-progress-v1";
   var wrongKey = "harang-history-wrong-v1";
+  var reviewKey = "harang-history-review-v1";
 
   function safeParse(key) {
     try {
@@ -22,6 +23,14 @@
     } catch (error) {
       return;
     }
+  }
+
+  function reviewStore() {
+    var value = safeParse(reviewKey);
+    if (!value || Array.isArray(value) || typeof value !== "object") {
+      return {};
+    }
+    return value;
   }
 
   function escapeHtml(value) {
@@ -334,7 +343,7 @@
       .replace(/[⑤㉤]/g, "5")
       .replace(/[o○ㅇ영]/g, "o")
       .replace(/[ⅹ×]/g, "x")
-      .replace(/[^0-9a-z가-힣]/g, "");
+      .replace(/[^0-9a-z가-힣ㄱ-ㅎㅏ-ㅣ]/g, "");
   }
 
   function matchesPdfAnswer(input, question) {
@@ -342,6 +351,9 @@
     var aliases = question.answerAliases || [];
     if (!normalizedInput) {
       return false;
+    }
+    if (question.answerNumber && normalizedInput === normalizeAnswer(question.answerNumber)) {
+      return true;
     }
     var matchedAlias = aliases.some(function (alias) {
       var normalizedAlias = normalizeAnswer(alias);
@@ -369,9 +381,9 @@
       return normalized.length > 1 || normalized === "o" || normalized === "x";
     });
     if (displayAliases.length) {
-      return displayAliases.join(", ");
+      return displayAliases.join(", ") + (question.answerNumber ? " (" + question.answerNumber + "번)" : "");
     }
-    return question.answerClue || question.answerText || "해설을 확인해 주세요.";
+    return (question.answerClue || question.answerText || "해설을 확인해 주세요.") + (question.answerNumber ? " (" + question.answerNumber + "번)" : "");
   }
 
   function dailyQuestions(questions) {
@@ -601,6 +613,179 @@
     draw();
   }
 
+  function renderReview() {
+    if (!Array.isArray(window.PDF_QUESTIONS)) {
+      errorPage("PDF 문제 데이터가 아직 준비되지 않았습니다.");
+      return;
+    }
+
+    var state = {
+      filter: param("filter") || "needs",
+      query: ""
+    };
+    var store = reviewStore();
+
+    function reviewEntry(id) {
+      return store[id] || {};
+    }
+
+    function filteredQuestions() {
+      var list = window.PDF_QUESTIONS.slice();
+      if (state.filter === "needs") {
+        list = list.filter(function (question) { return question.needsReview || question.checkMode === "clue"; });
+      } else if (state.filter === "objective") {
+        list = list.filter(function (question) { return question.sourceType === "objective"; });
+      } else if (state.filter === "subjective") {
+        list = list.filter(function (question) { return question.sourceType === "subjective"; });
+      } else if (state.filter === "numbered") {
+        list = list.filter(function (question) { return question.sourceType === "objective" && question.answerNumber; });
+      } else if (state.filter === "marked") {
+        list = list.filter(function (question) { return reviewEntry(question.id).status === "fix"; });
+      }
+      if (state.query) {
+        var keyword = state.query.toLowerCase();
+        list = list.filter(function (question) {
+          return [
+            question.id,
+            question.sourceTitle,
+            question.conceptTitle,
+            question.questionText,
+            question.answerText,
+            question.answerClue,
+            (question.answerAliases || []).join(" ")
+          ].join(" ").toLowerCase().indexOf(keyword) !== -1;
+        });
+      }
+      return list;
+    }
+
+    function reviewStats() {
+      var total = window.PDF_QUESTIONS.length;
+      var needs = window.PDF_QUESTIONS.filter(function (question) { return question.needsReview || question.checkMode === "clue"; }).length;
+      var numbered = window.PDF_QUESTIONS.filter(function (question) { return question.answerNumber; }).length;
+      var fixed = Object.keys(store).filter(function (id) { return store[id].status === "fix"; }).length;
+      var checked = Object.keys(store).filter(function (id) { return store[id].status === "ok"; }).length;
+      return { total: total, needs: needs, numbered: numbered, checked: checked, fixed: fixed };
+    }
+
+    function statsHtml() {
+      var stats = reviewStats();
+      return [
+        '<div class="review-stats">',
+        '<span><b data-review-stat="total">', stats.total, '</b><small>전체 PDF</small></span>',
+        '<span><b data-review-stat="needs">', stats.needs, '</b><small>우선 검수</small></span>',
+        '<span><b data-review-stat="numbered">', stats.numbered, '</b><small>번호 채점</small></span>',
+        '<span><b data-review-stat="checked">', stats.checked, '</b><small>검수 완료</small></span>',
+        '<span><b data-review-stat="fixed">', stats.fixed, '</b><small>수정 필요</small></span>',
+        "</div>"
+      ].join("");
+    }
+
+    function updateReviewStats() {
+      var stats = reviewStats();
+      Object.keys(stats).forEach(function (key) {
+        var node = document.querySelector('[data-review-stat="' + key + '"]');
+        if (node) {
+          node.textContent = stats[key];
+        }
+      });
+    }
+
+    function questionCard(question) {
+      var matched = findConcept(question.conceptId);
+      var entry = reviewEntry(question.id);
+      var aliases = question.answerAliases && question.answerAliases.length ? question.answerAliases.join(", ") : "없음";
+      var numberButtons = ["1", "2", "3", "4", "5"].map(function (number) {
+        var active = entry.number ? entry.number === number : question.answerNumber === number;
+        return '<button type="button" class="' + (active ? "active" : "") + '" data-number="' + number + '">' + number + "</button>";
+      }).join("");
+      return [
+        '<article class="review-card" data-id="', escapeHtml(question.id), '">',
+        '<div class="question-meta"><span>', escapeHtml(question.sourceTitle), " · ", question.questionNumber, '번 · ', escapeHtml(matched ? matched.concept.title : question.conceptTitle), '</span><span>', question.needsReview || question.checkMode === "clue" ? "검수 필요" : "자동 채점", "</span></div>",
+        '<h2>', escapeHtml(question.questionText || ""), "</h2>",
+        '<div class="review-answer-grid">',
+        '<div><small>정답 OCR</small><b>', escapeHtml(question.answerText || "없음"), "</b></div>",
+        '<div><small>정답 별칭</small><b>', escapeHtml(aliases), "</b></div>",
+        '<div><small>정답 번호</small><b>', escapeHtml(entry.number || question.answerNumber || "미확정"), "</b></div>",
+        '<div><small>채점 방식</small><b>', escapeHtml(question.checkMode), "</b></div>",
+        "</div>",
+        question.sourceType === "objective" ? '<div class="review-number-row"><span>번호 검수</span>' + numberButtons + "</div>" : "",
+        '<details class="review-detail"><summary>해설·원문 비교</summary>',
+        '<p class="review-clue">', escapeHtml(question.answerClue || "해설 핵심어 없음"), "</p>",
+        '<p>', escapeHtml(question.solutionText || ""), "</p>",
+        '<div class="review-images"><img loading="lazy" src="', escapeHtml(question.questionImage), '" alt="원문 문제"><img loading="lazy" src="', escapeHtml(question.solutionImage), '" alt="원문 해설"></div>',
+        "</details>",
+        '<textarea class="review-memo" placeholder="수정할 내용 메모">', escapeHtml(entry.memo || ""), "</textarea>",
+        '<div class="review-actions"><button type="button" class="btn btn-small review-ok">검수 완료</button><button type="button" class="btn btn-small review-fix">수정 필요</button><span>', entry.status === "ok" ? "검수 완료" : entry.status === "fix" ? "수정 필요" : "미검수", "</span></div>",
+        "</article>"
+      ].join("");
+    }
+
+    function draw() {
+      var list = filteredQuestions();
+      updateReviewStats();
+      document.getElementById("review-count").textContent = list.length;
+      document.getElementById("review-list").innerHTML = list.length
+        ? list.map(questionCard).join("")
+        : '<div class="quiz-empty"><b>표시할 문제가 없습니다.</b><p>필터나 검색어를 바꿔 보세요.</p></div>';
+
+      document.querySelectorAll(".review-card").forEach(function (card) {
+        var id = card.getAttribute("data-id");
+        card.querySelectorAll("[data-number]").forEach(function (button) {
+          button.addEventListener("click", function () {
+            store[id] = store[id] || {};
+            store[id].number = button.getAttribute("data-number");
+            safeSave(reviewKey, store);
+            draw();
+          });
+        });
+        card.querySelector(".review-memo").addEventListener("input", function (event) {
+          store[id] = store[id] || {};
+          store[id].memo = event.target.value;
+          safeSave(reviewKey, store);
+        });
+        card.querySelector(".review-ok").addEventListener("click", function () {
+          store[id] = store[id] || {};
+          store[id].status = "ok";
+          safeSave(reviewKey, store);
+          draw();
+        });
+        card.querySelector(".review-fix").addEventListener("click", function () {
+          store[id] = store[id] || {};
+          store[id].status = "fix";
+          safeSave(reviewKey, store);
+          draw();
+        });
+      });
+    }
+
+    app.innerHTML = [
+      '<section class="review-head">',
+      '<p class="eyebrow">PDF OCR 검수</p>',
+      '<h1>문제 텍스트와 정답 기준을 빠르게 확인합니다.</h1>',
+      '<p>우선 검수 필터는 자동 채점이 애매한 문항을 먼저 보여줍니다. 정답 번호 버튼과 메모는 이 브라우저에 저장됩니다.</p>',
+      statsHtml(),
+      "</section>",
+      '<section class="review-toolbar">',
+      '<label>필터 <select id="review-filter"><option value="needs">우선 검수</option><option value="all">전체</option><option value="objective">객관식</option><option value="subjective">주관식</option><option value="numbered">번호 채점 있음</option><option value="marked">수정 필요 표시</option></select></label>',
+      '<label>검색 <input id="review-query" placeholder="예: 몽골, 발해, 고조선"></label>',
+      '<span><b id="review-count">0</b>문항 표시</span>',
+      "</section>",
+      '<section class="review-list" id="review-list"></section>'
+    ].join("");
+
+    document.getElementById("review-filter").value = state.filter;
+    document.getElementById("review-filter").addEventListener("change", function (event) {
+      state.filter = event.target.value;
+      draw();
+    });
+    document.getElementById("review-query").addEventListener("input", function (event) {
+      state.query = event.target.value.trim();
+      draw();
+    });
+    draw();
+  }
+
   if (!data || !app) {
     return;
   }
@@ -613,5 +798,7 @@
     renderNote();
   } else if (page === "quiz") {
     renderQuiz();
+  } else if (page === "review") {
+    renderReview();
   }
 }());
